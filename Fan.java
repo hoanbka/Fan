@@ -55,7 +55,8 @@ public class Fan {
 
 	public String toString() {
 		if (on == true) {
-			return "fan color " + color + " radius " + radius;
+			return "fan speed = " + speed + " ,fan color = " + color
+					+ " ,radius " + radius;
 		} else {
 			return "fan is off";
 		}
